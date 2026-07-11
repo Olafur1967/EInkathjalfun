@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 84" role="img" aria-labelledby="title desc">
+  <title id="title">Gervigreindarverkfæri</title>
+  <desc id="desc">Stílfærð tákn fyrir ChatGPT, Copilot, Gemini, Claude og skapandi gervigreind.</desc>
+  <defs>
+    <linearGradient id="copilot" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#15c8ff"/>
+      <stop offset=".42" stop-color="#7cf46b"/>
+      <stop offset=".72" stop-color="#7357ff"/>
+      <stop offset="1" stop-color="#ff62c6"/>
+    </linearGradient>
+    <linearGradient id="gemini" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#f6c945"/>
+      <stop offset=".48" stop-color="#22bf75"/>
+      <stop offset="1" stop-color="#4f8dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="84" rx="8" fill="#ffffff"/>
+  <g fill="none" stroke="#17345a" stroke-width="2.6">
+    <rect x="3" y="4" width="72" height="72" rx="6"/>
+    <rect x="113" y="4" width="72" height="72" rx="6"/>
+    <rect x="223" y="4" width="72" height="72" rx="6"/>
+    <rect x="333" y="4" width="72" height="72" rx="6"/>
+    <rect x="443" y="4" width="72" height="72" rx="6"/>
+  </g>
+  <g transform="translate(39 40)" fill="none" stroke="#101820" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0-22c11 0 20 9 20 20S11 18 0 18s-20-9-20-20S-11-22 0-22Z"/>
+    <path d="M-17-10 0-20l17 10v20L0 20l-17-10Z"/>
+    <path d="M0-20v40M-17-10 17 10M17-10-17 10"/>
+  </g>
+  <path d="M151 18c18 0 27 10 27 24 0 15-9 24-27 24h-25c7-12 12-27 14-44 3-3 7-4 11-4Z" fill="url(#copilot)"/>
+  <path d="M259 13c5 16 13 24 29 29-16 5-24 13-29 29-5-16-13-24-29-29 16-5 24-13 29-29Z" fill="url(#gemini)"/>
+  <g transform="translate(369 40)" fill="none" stroke="#dc7655" stroke-width="4.6" stroke-linecap="round">
+    <path d="M0-27v54M19-19-19 19M27 0h-54M19 19-19-19"/>
+    <path d="M8-25-8 25M25-8-25 8M25 8-25-8M8 25-8-25"/>
+  </g>
+  <g transform="translate(479 41)" fill="none" stroke="#101820" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-8 8c7 11 25 7 26-6 1-8-6-13-13-10-4 2-6 5-6 9"/>
+    <path d="M-13-5c-9-10 2-22 10-13"/>
+    <path d="M4-21c6 2 8 9 4 14"/>
+    <path d="M16-16c7 5 6 14-1 18"/>
+    <path d="M-19 3c-6 9 5 18 14 11"/>
+  </g>
+</svg>
