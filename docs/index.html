@@ -25,25 +25,26 @@
 
       .site-header {
         z-index: 3;
+        justify-content: flex-end;
       }
 
       .hero-inner {
         z-index: 2;
       }
 
-      .hero-robot {
+      .hero-person {
         position: absolute;
-        top: clamp(132px, 20vh, 164px);
+        top: clamp(184px, 25.5vh, 212px);
         right: max(56px, calc((100vw - 1160px) / 2 + 8px));
         z-index: 1;
-        width: clamp(280px, 24vw, 338px);
+        width: clamp(300px, 24.6vw, 350px);
         height: auto;
         pointer-events: none;
-        filter: drop-shadow(0 26px 34px rgba(0, 0, 0, 0.3));
+        filter: drop-shadow(0 24px 34px rgba(0, 0, 0, 0.24));
       }
 
       @media (max-width: 1040px) {
-        .hero-robot {
+        .hero-person {
           display: none;
         }
       }
@@ -53,10 +54,6 @@
     <main>
       <section class="hero" id="top" aria-labelledby="hero-title">
         <header class="site-header" aria-label="Aðalvalmynd">
-          <a class="brand" href="#top" aria-label="Netkynning forsíða">
-            <span class="brand-mark">AI</span>
-            <span>Netkynning</span>
-          </a>
           <nav class="nav-links" aria-label="Kaflar">
             <a href="#ferlid">Ferlið</a>
             <a href="#arvinningur">Ávinningur</a>
@@ -88,8 +85,8 @@
           </div>
         </div>
         <img
-          class="hero-robot"
-          src="assets/robot.png"
+          class="hero-person"
+          src="assets/olik.png"
           alt=""
           aria-hidden="true"
         />
