@@ -43,16 +43,23 @@
         filter: drop-shadow(0 24px 34px rgba(0, 0, 0, 0.24));
       }
 
+      .hero-heading {
+        margin-bottom: 24px;
+        line-height: 1.02;
+      }
+
+      .hero-heading h1 {
+        display: inline;
+        margin: 0;
+      }
+
       .hero-price {
-        position: absolute;
-        top: clamp(232px, 35vh, 250px);
-        left: clamp(404px, 33vw, 440px);
-        z-index: 2;
         display: inline-flex;
         min-width: 186px;
         min-height: 48px;
         align-items: center;
         justify-content: center;
+        margin: 0.5em 0 0 28px;
         padding: 8px 28px;
         border: 1px solid rgba(255, 255, 255, 0.28);
         border-radius: 8px;
@@ -62,14 +69,23 @@
         font-size: 1.72rem;
         font-weight: 500;
         line-height: 1;
+        vertical-align: baseline;
+        white-space: nowrap;
         pointer-events: none;
         backdrop-filter: blur(8px);
       }
 
       @media (max-width: 1040px) {
-        .hero-person,
-        .hero-price {
+        .hero-person {
           display: none;
+        }
+
+        .hero-heading h1 {
+          display: block;
+        }
+
+        .hero-price {
+          margin: 20px 0 0;
         }
       }
     </style>
@@ -88,8 +104,10 @@
 
         <div class="hero-inner">
           <p class="eyebrow">Persónuleg einkaþjálfun í gervigreind</p>
-          <h1 id="hero-title">Náðu raunverulegum árangri með gervigreind</h1>
-          <div class="hero-price" aria-label="Verð krónur 87.400">kr. 87.400</div>
+          <div class="hero-heading">
+            <h1 id="hero-title">Náðu raunverulegum árangri með gervigreind</h1>
+            <div class="hero-price" aria-label="Verð krónur 96.400">kr. 96.400</div>
+          </div>
           <p class="hero-lede">
             Þjálfun sem tekur mið af þínu starfi, þínum verkefnum og þínum
             markmiðum.
@@ -379,7 +397,7 @@
             <p>Ókeypis kynningarsamtal</p>
             <a
               class="button button-primary"
-              href="mailto:olafur@netkynning.is?subject=Kynningarsamtal%20um%20gervigreindar%C3%BEj%C3%A1lfun"
+              href="mailto:olafur@netkynning.is"
             >
               Senda tölvupóst
             </a>
